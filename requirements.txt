@@ -1,0 +1,14 @@
+numpy
+pandas
+seaborn
+matplotlib
+tqdm
+xgboost
+scikit-learn
+torch
+pytorch_msssim
+torchvision
+ipykernel
+tensorflow==2.15.0
+tensorflow-gan==2.1.0
+tensorflow-probability==0.23.0
