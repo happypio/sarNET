@@ -1,0 +1,12 @@
+# Python byte-compiled
+__pycache__/
+
+# Dependency directories
+/venv
+
+# IDE files
+.vscode/
+.idea/
+
+#fashionmnist dataset
+data/FashionMNIST/
