@@ -55,6 +55,12 @@ SarNET's predictions are easily interpretable and explainable by inspecting the 
 :-------------------------:|:-------------------------:
 ![](./docs/importance-patches.png)  |  ![](./docs/imp-patch-fm.png)
 
+Below we present the interpolation over the latent space between the latent vectors of digits $4$, $5$, and $3$, $4$. Since sarNET is autoregressive, the initial pixels generated have the most significant impact on the model's output. The model generates images in a raster scan order (horizontally left-to-right), making digits with more apparent features at the top easier to generate.
+
+|           |               |
+:-------------------------:|:-------------------------:
+![](./docs/interpolation34.png)  |  ![](./docs/interpolation45.png)
+
 ## Technologies
 * Python 3.10
 * PyTorch 2.3.1
