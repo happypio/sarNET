@@ -10,3 +10,6 @@ __pycache__/
 
 #fashionmnist dataset
 data/FashionMNIST/
+
+#zipped file
+SarNET_sourcecode.zip
